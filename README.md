@@ -23,10 +23,10 @@ DESCRIBE tyler;
 ### Talks worth your time
 
 ```sql
-SELECT *
+SELECT title, event
 FROM talks
-WHERE highlight IS NOT NULL
-ORDER BY highlight
+WHERE has_video
+ORDER BY tyler_favourite DESC
 LIMIT 6;
 ```
 
