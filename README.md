@@ -27,7 +27,7 @@ SELECT *
 FROM talks
 WHERE highlight IS NOT NULL
 ORDER BY highlight
-LIMIT 5;
+LIMIT 6;
 ```
 
 | title | event |
@@ -36,6 +36,7 @@ LIMIT 5;
 | [Do Metrics Matter?](https://www.youtube.com/watch?v=8mHSNPYy004) | SREday London 2026 (keynote) |
 | [ML, Vectors, and Philosophy: Oh my!](https://www.youtube.com/watch?v=1Qqd2JEsSeU) | Latency Conference 2025 |
 | [My Favourite ClickHouse Features](https://www.youtube.com/watch?v=6mCahEIDwFc) | ClickHouse Singapore Meetup 2024 |
+| [Learning Databases and Learning Languages](https://www.youtube.com/watch?v=ZICoTYUPFq4) | ClickHouse Community Meetup 2023 |
 | [Medieval Art, Collective Intelligence, and Language Abuse](https://www.youtube.com/watch?v=MboWxOKP4-Y) | Monktoberfest 2013 |
 
 ### Say hi
